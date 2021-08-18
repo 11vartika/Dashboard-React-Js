@@ -1,0 +1,313 @@
+import { makeStyles } from '@material-ui/core';
+import { blue, blueGrey, red } from '@material-ui/core/colors';
+import { BathtubSharp } from '@material-ui/icons';
+export const useStyles = makeStyles((theme)=>({
+    section:{
+        margin:theme.spacing(3,0)
+    },
+    pageTitle:{
+        color:blueGrey[800],
+        marginBottom: theme.spacing(1),
+        marginLeft:theme.spacing(3)
+    },
+    pageSubtitle:{
+        color:blueGrey[500],
+        margin:theme.spacing(12,4,3),
+        marginBottom:theme.spacing(2),
+    },
+    cardlabel:{
+        textTransform:"uppercase",
+        color:blueGrey[500],
+        textAlign:"center",
+        justifyContent:"center",
+    },
+    card:{
+        width:"160px",
+        height:"150px",
+        marginLeft:"5px",
+        textAlign:"center",
+        justifyContent:"center",
+        margin:"5px",
+        padding:"10px",
+       
+    },
+    cardlabel:{
+        fontSize:"20px",
+        color:"#818ea3",
+    },
+   ratiobtn:{
+       fontSize:"1rem",
+       fontWeight:"bold",
+       color:"lightgreen",
+    },
+    footer:{
+        background:"#f5f6f8",
+        padding:theme.spacing(0,0,0,33),
+        marginTop:"25px",
+        width: 'calc(100%-${drawerWidth}px)',
+        marginLeft: "drawerWidth",
+        color:"#007bff",      
+    },
+    blogTitle:{
+        color:blueGrey[800],
+        marginBottom: theme.spacing(1),
+        marginLeft:theme.spacing(3)
+    },
+    blogSubtitle:{
+        color:blueGrey[500],
+        margin:theme.spacing(12,4,3),
+        marginBottom:theme.spacing(2),
+    },
+    card:{
+        width:220,
+            
+    },
+    media:{
+        height:140,
+        
+    },
+    card1:{
+        width:220,  
+    },
+    media1:{
+        height:140,        
+    },
+    card2:{
+        height:300,
+        width:320,       
+    },
+    button:{ 
+        border:"1px solid red",
+        marginLeft:"60px",
+    },
+    card3:{
+        width:450,
+        height:300,
+    },
+    image:{
+        height:310,
+        marginTop:-25,
+       margin:0,
+       marginLeft:-16,
+       marginRight:15,
+    },
+    content:{
+        color:"#3d5170",
+    },
+    postTitle:{
+        color:blueGrey[800],
+        marginBottom: theme.spacing(1),
+        marginLeft:theme.spacing(3)
+    },
+    postSubtitle:{
+        color:blueGrey[500],
+        margin:theme.spacing(12,4,3),
+        marginBottom:theme.spacing(2),
+    },
+    container:{
+        height:900,
+        width:1040,       
+        display:"flex",
+        marginLeft:10,
+    },
+    cardcontainer:{
+        height:850,
+        width:700,
+             
+    },
+    cardcontainer2:{
+        height:250,
+        width:300,
+        marginLeft:20,
+        marginTop:10,
+    },
+    cardcontainer3:{
+        height:370,
+        width:300,
+        marginLeft:20,        
+        marginTop:40,
+    },
+    containertitle:{
+        height:50,
+        width:650,
+        marginTop:10,
+        marginLeft:10,
+        border:"1px solid blue",
+    },
+    codeeditor:{
+        height:600,
+        width:650,
+        marginTop:30,
+        marginLeft:10,
+        border:"1px solid blue",
+    },
+    action:{
+        fontSize:17,
+        textAlign:"center",
+        color:"#3d5170",
+        marginTop:10,
+    },
+    users:{
+        listStyleType:"none",
+        padding:5,
+    },
+    icon:{
+        fontSize:15,
+        marginLeft:-15,
+        
+    },
+    textstatus:{
+        marginLeft:5,
+    },
+    draft:{
+    marginLeft:5,
+    },
+    button1:{
+        border:"1px solid #007bff",
+        marginLeft:20,
+    },
+    icon1:{
+      color:" #007bff",
+    },
+    newentry:{
+        backgroundColor:"blue",
+    },
+    formTitle:{
+        color:blueGrey[800],
+        marginBottom: theme.spacing(1),
+        marginLeft:theme.spacing(3)
+    },
+    formSubtitle:{
+        color:blueGrey[500],
+        margin:theme.spacing(12,4,3),
+        marginBottom:theme.spacing(2),
+    },
+    table:{
+        height:300,
+        width:1000,
+        backgroundColor:"white",
+        marginLeft:20,
+        marginTop:20,
+       
+    },
+    table1:{
+        height:280,
+        width:1000,
+        backgroundColor:"#343a40",
+        marginLeft:20,
+        marginTop:50,
+        color:"white",
+    },
+    tablecontent:{
+        color:"white",
+    },
+    error:{
+        backgroundColor:"#EFEFEF",
+        marginTop:100,
+        height:450,
+        width:"100", 
+        marginLeft:20,
+    },
+    texterror:{
+        marginTop:80,
+        fontSize:40,
+        marginLeft:220,
+        color:"#cacedb",
+        textAlign:"center",
+        justifyContent:"center",
+    },
+    texterror1:{
+        fontSize:25,
+        color:"#3d5170",
+        textAlign:"center",
+        justifyContent:"center",
+        marginLeft:220,
+    },
+    texterror2:{
+        fontSize:20,
+        color:"#818ea3",
+        textAlign:"center",
+        marginLeft:220,
+        justifyContent:"center",
+    },
+    btn:{
+        borderRadius:"30%",
+        color:"#fff",
+        marginTop:25,
+        backgroundColor:"#007bff",
+        marginLeft:400,
+        borderColor:"#007bff",
+    },
+    profileTitle:{
+        color:blueGrey[800],
+        marginBottom: theme.spacing(1),
+        marginLeft:theme.spacing(3)
+    },
+    profileSubtitle:{
+        color:blueGrey[500],
+        margin:theme.spacing(12,4,3),
+        marginBottom:theme.spacing(2),
+    },
+    cardProfile:{
+        height:570,
+        width:340,
+        
+    },
+    mediaprofile:{
+        height:150,
+        marginLeft:90,
+        marginTop:40,
+        width:"40%",
+        borderRadius:"50%",
+    },
+    brooks:{
+        marginLeft:110,
+        marginTop:20,
+      
+        color:"#3d5170",
+        fontStyle:"bold",
+        fontSize:"25px",
+    },
+    manager:{
+        color:"#868e96",
+        marginLeft:120,
+        fontSize:"15px",
+    },
+    followbtn:{
+        borderRadius:"30%",
+        color:"#fff",
+        
+        backgroundColor:"#007bff",
+        marginLeft:400,
+        borderColor:"#007bff",
+    },
+    workload:{
+        marginLeft:20,
+    },
+    description:{
+        marginRight:5,
+        marginLeft:5,
+    },
+    cardProfile1:{
+        height:630,
+        width:590,
+        marginLeft:10,
+        marginBottom:10,
+    },
+    account:{
+        color:"#3d5170",
+        marginTop:20,
+        marginLeft:20,
+    },
+    textField: {
+        marginLeft: theme.spacing(1),
+        marginRight: theme.spacing(1),
+        width: '50px',
+        height:50,
+      },
+     update:{
+         backgroundColor:"#007bff",
+         bordercolor: "#007bff",
+         color:"white",         
+     },
+}));

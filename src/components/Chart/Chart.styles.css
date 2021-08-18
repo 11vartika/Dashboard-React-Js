@@ -1,0 +1,21 @@
+.chart{
+    width: 100%;
+    margin-top: 12px;
+    background-color: white;
+}
+.chart1{
+    
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,1);
+    margin: 10px;
+    padding: 5px;
+    height: 330px; 
+    
+    
+}
+.charttitle{
+    margin-bottom: 20px;
+    color:#868e96;
+    
+}
+

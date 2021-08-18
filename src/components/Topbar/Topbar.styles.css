@@ -1,0 +1,58 @@
+.topbar{
+   background-color: #fff;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    margin-left: 205px;
+}
+.appbar{
+    width: 'calc(100%-${drawerWidth}px)';
+    margin-left: "drawerWidth";
+}
+.heading{
+    color: #5a6169;
+    border-right: ridge;
+    margin-left: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.icon{
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: -6px;
+    color:"#5a6169";
+}
+.searchicon{
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border-right: ridge;
+    width: 750px;
+}
+.notification{
+    width: 50px;
+    border-right: ridge;
+    margin: 7px;
+   margin-left: -5px;
+   
+}
+.notibutton{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;  
+    
+}
+.badge{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.accounts{
+    display: flex;
+    justify-content: center;
+}
